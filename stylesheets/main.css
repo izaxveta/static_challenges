@@ -1,0 +1,60 @@
+body {
+  background-image: url("../images/1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: black;
+  font-family: Arial;
+  font-size: 10;
+  color: white;
+}
+
+#content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+}
+
+header {
+  background: #2E2D2D;
+  padding: 10;
+}
+
+header p {
+  display: inline;
+  float: right;
+  margin-top: 10;
+}
+
+h1 {
+  font-size: 20;
+  display: inline;
+}
+
+h2 {
+  font-size: 16
+}
+
+nav {
+  background-color: #E15301;
+  padding: 5
+}
+
+nav p {
+  display: inline-block;
+  text-align: center;
+  width: 33%;
+}
+
+main {
+  position: fixed;
+  padding: 10;
+}
+
+footer {
+  position: fixed;
+  padding: 10;
+  bottom: 0;
+}
