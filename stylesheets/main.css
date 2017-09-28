@@ -17,6 +17,22 @@ body {
   background: rgba(0,0,0,0.5);
 }
 
+#image_caption p {
+  display: inline-flex;
+  text-align: left;
+  width: 33%;
+  font-weight: bold;
+  font-size: 12;
+  padding-top: 40
+}
+
+#image_bar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5;
+  width: 100%;
+}
+
 header {
   background: #2E2D2D;
   padding: 10;
@@ -34,12 +50,12 @@ h1 {
 }
 
 h2 {
-  font-size: 16
+  font-size: 14
 }
 
 nav {
   background-color: #E15301;
-  padding: 5
+  padding: 3
 }
 
 nav p {
@@ -50,7 +66,7 @@ nav p {
 
 main {
   position: fixed;
-  padding: 10;
+  padding: 15;
 }
 
 footer {
